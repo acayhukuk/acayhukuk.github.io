@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/uikit-rtl.css">
+    <link rel="stylesheet" href="css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+
 </head>
 <body>
     Bizimle iletişime geçin
@@ -20,6 +27,51 @@
         <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
         <input type="submit" value="Gönder" />
     </form>
+
+
+
+
+
+    <div class="uk-section uk-section-secondary uk-light">
+        <div class="uk-container">
+    
+            <h3>Mesaj Gönderin</h3>
+    
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <fieldset class="uk-fieldset">
+            
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" name="name" placeholder="İsim ve Soyisim" aria-label="Input">
+                    </div>
+            
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" name="email" placeholder="Eposta" aria-label="Input">
+                    </div>
+            
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" name="message" placeholder="Mesajınız" aria-label="Textarea"></textarea>
+                    </div>
+
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="3a9c414d-4b33-41b4-89eb-dfa85081407e">
+                    <input type="hidden" name="subject" value="Contact us from - example.com" />
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+            
+                    <div class="uk-margin">
+                        <input class="uk-button uk-button-danger" type="submit" value="Gönder" />
+                    </div>
+
+            
+                </fieldset>
+            </form>
+    
+        </div>
+    </div>
+
+
+
+
 
 
 
