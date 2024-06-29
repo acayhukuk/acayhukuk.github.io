@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acay Hukuk</title>
 
 
-    <link rel="stylesheet" href="css/uikit-rtl.css">
-    <link rel="stylesheet" href="css/uikit-rtl.min.css">
     <link rel="stylesheet" href="css/uikit.css">
-    <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
 </head>
@@ -17,15 +14,28 @@
 
 
     <div class="uk-section uk-section-secondary uk-light uk-section-xsmall">
-        <div class="uk-container">
-    
-            <div uk-navbar>        
-                <div class="uk-navbar-left">        
+        <div id="navbar" class="uk-container">
+
+            <!--<div uk-navbar>        
+                <div class="uk-navbar-right">        
                     <ul class="uk-navbar-nav">
-                        <li><a href="#contact">İletişim</a></li>
-                    </ul>        
-                </div>        
-            </div>
+                        <li><img src="images/logo.jpg"></li>
+                        <li id="navbar-contact"><a href="#contact">İletişim</a></li>
+                    </ul>    
+                </div>     
+            </div>-->
+
+
+            <!-- BEGIN HERE -->
+
+            
+
+            <img src="images/logo.jpg">
+            
+            <a href="#contact"><button id="navbar-contact" class="uk-button uk-button-default">İletişim</button></a>
+            
+            <!-- END HERE -->
+
     
         </div>
     </div>
@@ -39,7 +49,7 @@
         <div class="uk-section uk-light uk-background-cover" style="background-image: url(images/lawyer.jpg)">
             <div class="uk-container">
     
-                <h3>Section with Images</h3>
+                <h3>Resim ve Tanıtım</h3>
     
                 <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
                     <div>
@@ -58,6 +68,21 @@
     </div>
 
 
+    
+
+
+
+
+
+    <div class="uk-section uk-section-muted">
+        <div class="uk-container">    
+            <div id="justice-container">
+                <img src="images/lady-justice.jpg">
+            </div>    
+        </div>
+    </div>
+
+
 
 
 
@@ -65,7 +90,7 @@
     <div class="uk-section uk-section-secondary uk-light">
         <div class="uk-container">
     
-            <h3>Section</h3>
+            <h3>Bakılan Hukuk Dalları</h3>
     
             <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
                 <div>
@@ -75,15 +100,13 @@
     
         </div>
     </div>
-
-
 
 
 
     <div class="uk-section uk-section-muted" id="contact">
         <div class="uk-container">
     
-            <h3>Section Muted</h3>
+            <h3>Adres, Telefon, Eposta, Sosyal Medya...</h3>
     
             <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
                 <div>
@@ -93,6 +116,7 @@
     
         </div>
     </div>
+
 
 
 
